@@ -1,0 +1,51 @@
+.areas{
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+.areas form{
+    width: 290px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.areas label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.areas input, button{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+.areas select option{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+}
+
+.areas input{
+    width: 210px;
+}
+.areas button{
+    width: 70px;
+    background: #555;
+    color: white;
+    margin-left: 10px;
+}
+.areas .row{
+    min-width: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}

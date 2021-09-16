@@ -1,0 +1,33 @@
+.sidebar {
+
+    margin-left: 3px;
+    padding-top: 20px;
+    font-size: 18px;
+
+     border: 1px solid #ddd;
+     width: 20%;
+     height:36rem;
+     background-color:indigo;
+     
+}
+
+.sidebar a {
+ color: white;
+ display: block;
+ margin : 3px;
+ border-radius: 5px;
+ background-color: #a7b1c5;
+ padding-left: 3px;
+}
+
+.sidebar a:hover{
+    background-color: #f8f9fa;
+    color:blueviolet;
+
+}
+
+li {
+
+    margin-top: 10px;
+}
+
